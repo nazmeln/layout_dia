@@ -1,0 +1,31 @@
+.descript {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .descript__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 700px; }
+  .descript__heading {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #253757; }
+  .descript__text {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6c788b; }
+
+/*# sourceMappingURL=descript.css.map */

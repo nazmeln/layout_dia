@@ -1,0 +1,48 @@
+.header {
+  background: #2c2c2c; }
+  .header__wrapper {
+    position: relative;
+    padding: 0 calc(50% - 600px);
+    height: 120px;
+    max-width: 1200px; }
+    .header__wrapper .hire {
+      position: absolute;
+      top: calc(50% - 5px);
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      right: 220px;
+      text-transform: uppercase;
+      font-family: Poppins, Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+      letter-spacing: 3px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #2060f6; }
+      .header__wrapper .hire:hover {
+        -webkit-animation: shake 1s ease-in-out infinite;
+                animation: shake 1s ease-in-out infinite; }
+  .header__logo {
+    position: absolute;
+    top: calc(50% - 13px); }
+    .header__logo:hover {
+      -webkit-transform: skew(-15deg);
+              transform: skew(-15deg); }
+  .header__nav {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50px;
+    max-width: 800px; }
+
+@media screen and (max-width: 1024px) {
+  .header__wrapper {
+    padding: 0 calc(50% - 450px);
+    height: 100px;
+    max-width: 900px; }
+  .header__nav {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50px;
+    max-width: 500px; } }
+
+/*# sourceMappingURL=header.css.map */

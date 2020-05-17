@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth; }
+
+body,
+ul,
+li,
+input,
+button,
+p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f2f6fa; }
+
+a {
+  outline: none;
+  text-decoration: none; }
+
+/*# sourceMappingURL=reset.css.map */

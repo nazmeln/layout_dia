@@ -1,0 +1,87 @@
+.cards {
+  position: relative;
+  width: 650px; }
+  .cards--right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px; }
+  .cards--left {
+    position: absolute;
+    top: 130px;
+    width: 280px; }
+  .cards .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 264px;
+    height: 264px;
+    padding: 32px;
+    margin: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+            box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+    border-radius: 16px; }
+    .cards .card__number {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 46px;
+      height: 24px;
+      margin-bottom: 26px;
+      font-family: Poppins, Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      color: #2060f6;
+      border-radius: 23px;
+      background: #f2f6fa; }
+    .cards .card__text {
+      width: 180px;
+      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      line-height: 150%;
+      font-size: 13px;
+      color: #6c788b; }
+    .cards .card__link {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      margin-top: 32px;
+      border-radius: 30px;
+      background: url(../images/arrow/arrow.png) center center/cover no-repeat #2060f6;
+      background-size: 15px;
+      -webkit-transition: 0.3s ease-in-out;
+      transition: 0.3s ease-in-out; }
+      .cards .card__link::after {
+        content: "Learn more";
+        position: absolute;
+        left: 80px;
+        top: calc(50% - 12px);
+        width: 220%;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: #253757;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; }
+      .cards .card__link:hover, .cards .card__link:focus {
+        width: 100%;
+        background-image: none; }
+      .cards .card__link:hover::after, .cards .card__link:focus::after {
+        color: #fff; }
+
+/*# sourceMappingURL=cards.css.map */

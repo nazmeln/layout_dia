@@ -1,0 +1,33 @@
+.process .content__subheading, .process .content__heading {
+  font-family: Poppins, Arial, Helvetica, sans-serif; }
+
+.process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 700px; }
+  .process .content {
+    margin-top: 160px;
+    max-width: 350px; }
+    .process .content__subheading {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #c0cdd7; }
+    .process .content__heading {
+      margin-top: 0;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      color: #253757; }
+    .process .content__text {
+      font-family: Open Sans, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #6c788b; }
+
+/*# sourceMappingURL=process.css.map */
