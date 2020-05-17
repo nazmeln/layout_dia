@@ -306,7 +306,8 @@ a {
   .expertise .item {
     text-align: center;
     -webkit-transition: 0.3s;
-    transition: 0.3s; }
+    transition: 0.3s;
+    height: 380px; }
     .expertise .item__photo {
       margin-top: 30px;
       border-radius: 30px; }
@@ -334,7 +335,7 @@ a {
           justify-content: space-between;
   max-height: 700px; }
   .process .content {
-    margin-top: 160px;
+    margin-top: 100px;
     max-width: 350px; }
     .process .content__subheading {
       font-weight: bold;
@@ -356,7 +357,7 @@ a {
 
 .cards {
   position: relative;
-  width: 650px; }
+  width: 600px; }
   .cards--right {
     position: absolute;
     top: 0;
@@ -378,13 +379,15 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 264px;
-    height: 264px;
-    padding: 32px;
+    padding: 30px 0 30px 30px;
     margin: 30px;
     background: #fff;
     -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
             box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
     border-radius: 16px; }
+    .cards .card:hover {
+      -webkit-box-shadow: 14px 16px 26px #c0cdd7;
+              box-shadow: 14px 16px 26px #c0cdd7; }
     .cards .card__number {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -406,6 +409,7 @@ a {
       background: #f2f6fa; }
     .cards .card__text {
       width: 180px;
+      max-height: 200px;
       font-family: Open Sans, Arial, Helvetica, sans-serif;
       font-weight: 600;
       line-height: 150%;
@@ -413,8 +417,8 @@ a {
       color: #6c788b; }
     .cards .card__link {
       position: relative;
-      height: 40px;
-      width: 40px;
+      height: 50px;
+      width: 50px;
       margin-top: 32px;
       border-radius: 30px;
       background: url(../images/arrow/arrow.png) center center/cover no-repeat #2060f6;
@@ -425,7 +429,7 @@ a {
         content: "Learn more";
         position: absolute;
         left: 80px;
-        top: calc(50% - 12px);
+        top: calc(50% - 10px);
         width: 220%;
         font-family: Poppins, Arial, Helvetica, sans-serif;
         font-style: normal;
@@ -435,19 +439,90 @@ a {
         -webkit-transition: 0.3s ease-in-out;
         transition: 0.3s ease-in-out; }
       .cards .card__link:hover, .cards .card__link:focus {
-        width: 100%;
+        width: 90%;
         background-image: none; }
       .cards .card__link:hover::after, .cards .card__link:focus::after {
         color: #fff; }
 
+.approach__subheading, .approach__heading {
+  font-family: Poppins, Arial, Helvetica, sans-serif; }
+
 .approach {
   position: absolute;
   right: 0;
-  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  max-width: 1100px;
   background: #2c2c2c;
   border-radius: 30px 0 0 30px;
-  -webkit-transform: translateY(270px);
-          transform: translateY(270px);
+  -webkit-transform: translateY(140px);
+          transform: translateY(140px);
   z-index: -1; }
+  .approach__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 100px;
+    width: 460px;
+    color: #fff; }
+  .approach__subheading {
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+  .approach__heading {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 32px; }
+  .approach__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 500px; }
+  .approach__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100px;
+    margin-bottom: 50px; }
+  .approach__picture {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    margin-right: 32px;
+    background: #fff;
+    border-radius: 30px; }
+  .approach__icon {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    width: 25px;
+    height: 25px; }
+  .approach__text {
+    width: 250px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%; }
+  .approach__photo {
+    position: absolute;
+    border-radius: 30px 0 0;
+    top: 320px;
+    right: 0;
+    width: 40vw;
+    height: 580px;
+    background: url(../images/bridges.jpg) center center/cover no-repeat; }
 
 /*# sourceMappingURL=main.css.map */

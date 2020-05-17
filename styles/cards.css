@@ -1,6 +1,6 @@
 .cards {
   position: relative;
-  width: 650px; }
+  width: 600px; }
   .cards--right {
     position: absolute;
     top: 0;
@@ -22,13 +22,15 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 264px;
-    height: 264px;
-    padding: 32px;
+    padding: 30px 0 30px 30px;
     margin: 30px;
     background: #fff;
     -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
             box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
     border-radius: 16px; }
+    .cards .card:hover {
+      -webkit-box-shadow: 14px 16px 26px #c0cdd7;
+              box-shadow: 14px 16px 26px #c0cdd7; }
     .cards .card__number {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -50,6 +52,7 @@
       background: #f2f6fa; }
     .cards .card__text {
       width: 180px;
+      max-height: 200px;
       font-family: Open Sans, Arial, Helvetica, sans-serif;
       font-weight: 600;
       line-height: 150%;
@@ -57,8 +60,8 @@
       color: #6c788b; }
     .cards .card__link {
       position: relative;
-      height: 40px;
-      width: 40px;
+      height: 50px;
+      width: 50px;
       margin-top: 32px;
       border-radius: 30px;
       background: url(../images/arrow/arrow.png) center center/cover no-repeat #2060f6;
@@ -69,7 +72,7 @@
         content: "Learn more";
         position: absolute;
         left: 80px;
-        top: calc(50% - 12px);
+        top: calc(50% - 10px);
         width: 220%;
         font-family: Poppins, Arial, Helvetica, sans-serif;
         font-style: normal;
@@ -79,7 +82,7 @@
         -webkit-transition: 0.3s ease-in-out;
         transition: 0.3s ease-in-out; }
       .cards .card__link:hover, .cards .card__link:focus {
-        width: 100%;
+        width: 90%;
         background-image: none; }
       .cards .card__link:hover::after, .cards .card__link:focus::after {
         color: #fff; }
