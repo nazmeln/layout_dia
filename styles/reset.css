@@ -11,6 +11,7 @@ p {
   padding: 0; }
 
 body {
+  overflow-x: hidden;
   background: #f2f6fa; }
 
 a {

@@ -1,6 +1,7 @@
 .cards {
   position: relative;
-  width: 600px; }
+  width: 600px;
+  z-index: 2; }
   .cards--right {
     position: absolute;
     top: 0;

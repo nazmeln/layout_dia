@@ -3,16 +3,16 @@
   background: #2c2c2c; }
   .header__wrapper {
     position: relative;
-    padding: 0 calc(50% - 600px);
+    padding: 0 calc(50% - 550px);
     height: 120px;
-    max-width: 1200px; }
+    max-width: 1100px; }
     .header__wrapper .hire {
       position: absolute;
       top: calc(50% - 5px);
+      right: calc(50% - 550px);
       display: block;
       text-decoration: none;
       color: #fff;
-      right: 220px;
       text-transform: uppercase;
       font-family: Poppins, Arial, Helvetica, sans-serif;
       font-weight: bold;
@@ -33,7 +33,7 @@
     position: absolute;
     top: calc(50% - 10px);
     left: 50px;
-    max-width: 800px; }
+    max-width: 700px; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .header__wrapper {
@@ -96,6 +96,7 @@ p {
   padding: 0; }
 
 body {
+  overflow-x: hidden;
   background: #f2f6fa; }
 
 a {
@@ -200,7 +201,7 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 40vw;
     height: 650px;
     background: url(../images/watch.png) center center/cover no-repeat;
     border-radius: 30px 0; }
@@ -211,10 +212,9 @@ a {
 
 .wrapper {
   position: relative;
-  padding: 150px calc(50% - 600px);
+  padding: 150px calc(50% - 550px);
   height: 350px;
-  max-width: 1200px;
-  width: 100%; }
+  max-width: 1100px; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .wrapper {
@@ -355,7 +355,8 @@ a {
 
 .cards {
   position: relative;
-  width: 600px; }
+  width: 600px;
+  z-index: 2; }
   .cards--right {
     position: absolute;
     top: 0;
@@ -446,18 +447,18 @@ a {
   font-family: Poppins, Arial, Helvetica, sans-serif; }
 
 .approach {
-  position: absolute;
-  right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 600px;
-  max-width: 1100px;
+  position: relative;
+  height: auto;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
   background: #2c2c2c;
   border-radius: 30px 0 0 30px;
   -webkit-transform: translateY(140px);
-          transform: translateY(140px);
-  z-index: -1; }
+          transform: translateY(140px); }
   .approach__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -492,7 +493,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100px;
+    height: auto;
     margin-bottom: 50px; }
     .approach__item::after {
       position: absolute;
@@ -528,6 +529,7 @@ a {
     height: 25px; }
   .approach__text {
     width: 250px;
+    margin: 5px;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -536,10 +538,137 @@ a {
   .approach__photo {
     position: absolute;
     border-radius: 30px 0 0;
-    top: 320px;
+    top: 30%;
     right: 0;
     width: 40vw;
-    height: 580px;
+    height: 70%;
     background: url(../images/bridge.png) center center/cover no-repeat; }
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg); }
+  25% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg); }
+  50% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg); }
+  75% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg); }
+  100% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg); } }
+
+@keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0); }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0); }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0); }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0); } }
+
+.testimonials__text, .testimonials__name {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
+
+.testimonials {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  height: 800px; }
+  .testimonials__subheading {
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 19px;
+    color: #c0cdd7; }
+  .testimonials__heading {
+    font-weight: 600;
+    font-size: 32px;
+    width: 200px;
+    color: #253757; }
+  .testimonials__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 65px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .testimonials__item {
+    width: 314px;
+    background: #fff;
+    -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+            box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+    border-radius: 16px;
+    text-align: center;
+    font-size: 13px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .testimonials__item:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-box-shadow: 14px 16px 26px #c0cdd7;
+              box-shadow: 14px 16px 26px #c0cdd7; }
+  .testimonials__photo {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 32px;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .testimonials__img {
+    position: absolute;
+    top: calc(50% - 70px);
+    left: calc(50% - 70px);
+    border-radius: 50%;
+    z-index: 2; }
+  .testimonials__capsula {
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    margin: 0;
+    width: 140px;
+    height: 55px;
+    background: #2060f6;
+    border-radius: 12px;
+    -webkit-transform: rotate(-60deg);
+            transform: rotate(-60deg); }
+    .testimonials__capsula:first-child {
+      top: 50px;
+      left: 10px; }
+  .testimonials__quotes {
+    background: url(../images/quates.jpg) center center/contain no-repeat;
+    height: 20px; }
+  .testimonials__text {
+    width: 250px;
+    margin: 16px 32px;
+    font-weight: 600;
+    color: #6c788b;
+    line-height: 150%; }
+  .testimonials__name {
+    width: 55px;
+    margin: 0 auto;
+    font-weight: 600;
+    color: #253757; }
+  .testimonials__position {
+    width: 200px;
+    margin: 5px auto 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c0cdd7; }
 
 /*# sourceMappingURL=main.css.map */
