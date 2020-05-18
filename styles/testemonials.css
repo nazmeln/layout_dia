@@ -3,8 +3,8 @@
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg); }
   25% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg); }
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg); }
   50% {
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg); }
@@ -20,8 +20,8 @@
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg); }
   25% {
-    -webkit-transform: rotate(-15deg);
-            transform: rotate(-15deg); }
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg); }
   50% {
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg); }

@@ -5,23 +5,6 @@
     padding: 0 calc(50% - 550px);
     height: 120px;
     max-width: 1100px; }
-    .header__wrapper .hire {
-      position: absolute;
-      top: calc(50% - 5px);
-      right: calc(50% - 550px);
-      display: block;
-      text-decoration: none;
-      color: #fff;
-      text-transform: uppercase;
-      font-family: Poppins, Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      font-size: 13px;
-      letter-spacing: 3px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid #2060f6; }
-      .header__wrapper .hire:hover {
-        -webkit-animation: shake 1s ease-in-out infinite;
-                animation: shake 1s ease-in-out infinite; }
   .header__logo {
     position: absolute;
     top: calc(50% - 13px); }
@@ -33,6 +16,23 @@
     top: calc(50% - 10px);
     left: 50px;
     max-width: 700px; }
+  .header__hire {
+    position: absolute;
+    top: calc(50% - 5px);
+    right: calc(50% - 550px);
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2060f6; }
+    .header__hire:hover {
+      -webkit-animation: shake 1s ease-in-out infinite;
+              animation: shake 1s ease-in-out infinite; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .header__wrapper {
