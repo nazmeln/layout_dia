@@ -106,4 +106,24 @@
     height: 24px;
     width: 24px; }
 
+@media screen and (max-width: 800px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .contact__info {
+      width: 560px; }
+    .contact__button {
+      margin: 50px auto; } }
+
+@media screen and (max-width: 500px) {
+  .contact__form {
+    width: 300px; }
+  .contact__info {
+    width: 300px; } }
+
 /*# sourceMappingURL=contact.css.map */

@@ -43,6 +43,20 @@
     position: absolute;
     top: calc(50% - 10px);
     left: 50px;
-    max-width: 500px; } }
+    max-width: 500px; }
+  .header__hire {
+    right: calc(50% - 450px); } }
+
+@media screen and (max-width: 800px) {
+  .header__wrapper {
+    padding: 0 calc(50% - 300px);
+    max-width: 600px; }
+  .header__nav, .header__hire {
+    display: none; } }
+
+@media screen and (max-width: 500px) {
+  .header__wrapper {
+    width: 300px;
+    padding: 0 calc(50% - 150px); } }
 
 /*# sourceMappingURL=header.css.map */

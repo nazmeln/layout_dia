@@ -88,4 +88,28 @@
       .cards .card__link:hover::after, .cards .card__link:focus::after {
         color: #fff; }
 
+@media screen and (max-width: 1024px), (max-width: 1280px) {
+  .cards {
+    width: 700px; }
+  .card {
+    width: 254px; } }
+
+@media screen and (max-width: 800px) {
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+    .cards--left, .cards--right {
+      position: static; } }
+
+@media screen and (max-width: 500px) {
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
 /*# sourceMappingURL=cards.css.map */

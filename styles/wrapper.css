@@ -9,4 +9,15 @@
     padding: 100px calc(50% - 450px);
     width: 900px; } }
 
+@media screen and (max-width: 800px) {
+  .wrapper {
+    padding: 100px calc(50% - 300px);
+    max-width: 600px; } }
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 300px;
+    padding: calc(50% - 150px);
+    height: auto; } }
+
 /*# sourceMappingURL=wrapper.css.map */

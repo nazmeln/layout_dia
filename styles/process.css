@@ -30,4 +30,15 @@
       font-size: 16px;
       color: #6c788b; }
 
+@media screen and (max-width: 800px) {
+  .process {
+    display: contents;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .content {
+    margin: 50px auto; } }
+
 /*# sourceMappingURL=process.css.map */

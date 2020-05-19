@@ -39,4 +39,19 @@
       background: #f2f6fa;
       border-radius: 30px; }
 
+@media screen and (max-width: 800px) {
+  .expertise {
+    height: auto; }
+    .expertise__items {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      margin-bottom: 0; }
+    .expertise .item {
+      height: 400px; }
+      .expertise .item__text {
+        width: 250px; } }
+
 /*# sourceMappingURL=expertise.css.map */

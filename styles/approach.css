@@ -97,4 +97,27 @@
     height: 70%;
     background: url(../images/bridge.png) center center/cover no-repeat; }
 
+@media screen and (max-width: 1024px), (max-width: 1280px) {
+  .approach {
+    width: 800px; }
+    .approach__content {
+      margin-left: 50px; } }
+
+@media screen and (max-width: 800px) {
+  .approach {
+    width: 550px;
+    margin-left: 50px; }
+    .approach__content {
+      margin: 0; }
+    .approach__text {
+      width: 200px; } }
+
+@media screen and (max-width: 500px) {
+  .approach {
+    width: auto;
+    margin: 0;
+    border-radius: 30px; }
+    .approach__photo {
+      display: none; } }
+
 /*# sourceMappingURL=approach.css.map */
