@@ -1,21 +1,23 @@
+.strategic__text, .strategic .photo__text {
+  font-family: Open Sans, Arial, Helvetica, sans-serif; }
+
 .strategic {
   background-color: #2c2c2c;
   border-radius: 0 0 30px 30px;
   -webkit-transform: translateY(-5px);
-          transform: translateY(-5px); }
+          transform: translateY(-5px);
+  font-family: Poppins, Arial, Helvetica, sans-serif; }
   .strategic__content {
     max-width: 350px;
     max-height: 400px;
     color: #fff; }
   .strategic__heading {
     margin-top: 0;
-    font-family: Poppins, Arial, sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 68px;
     letter-spacing: -2px; }
   .strategic__text {
-    font-family: "Open Sans", Arial, sans-serif;
     font-weight: 300;
     font-size: 18px; }
   .strategic__button {
@@ -28,6 +30,34 @@
     height: 650px;
     background: url(../images/watch.png) center center/cover no-repeat;
     border-radius: 30px 0; }
+  .strategic .photo__content {
+    position: absolute;
+    left: 50px;
+    bottom: 40px; }
+  .strategic .photo__heading {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px; }
+  .strategic .photo__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px; }
+  .strategic .photo__button {
+    height: 50px;
+    outline: none;
+    width: 50px;
+    border-radius: 50%;
+    margin: 25px 5px;
+    background: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .strategic .photo__button:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
+    .strategic .photo__button:focus, .strategic .photo__button:active {
+      -webkit-transform: translateY(-5px);
+              transform: translateY(-5px); }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .strategic__photo {

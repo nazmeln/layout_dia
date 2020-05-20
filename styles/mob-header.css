@@ -69,4 +69,13 @@
   .mob__hire {
     margin-left: 120px; } }
 
+@media screen and (max-width: 330px) {
+  .mob__nav {
+    right: -320px;
+    max-width: 320px;
+    height: 500px; }
+  .mob__slide {
+    -webkit-transform: translate(-320px);
+            transform: translate(-320px); } }
+
 /*# sourceMappingURL=mob-header.css.map */
