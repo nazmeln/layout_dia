@@ -1,9 +1,6 @@
 .approach__subheading, .approach__heading {
   font-family: Poppins, Arial, Helvetica, sans-serif; }
 
-.approach__text {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
-
 .approach {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,6 +83,7 @@
   .approach__text {
     width: 250px;
     margin: 5px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 150%; }
