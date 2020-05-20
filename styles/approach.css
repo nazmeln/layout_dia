@@ -1,6 +1,3 @@
-.approach__subheading, .approach__heading {
-  font-family: Poppins, Arial, Helvetica, sans-serif; }
-
 .approach {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,6 +19,7 @@
             flex-direction: column;
     margin-left: 100px;
     width: 460px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     color: #fff; }
   .approach__subheading {
     font-weight: bold;

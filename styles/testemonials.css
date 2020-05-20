@@ -86,9 +86,6 @@
     -webkit-box-shadow: 0 0 0 35px rgba(231, 227, 227, 0);
             box-shadow: 0 0 0 35px rgba(231, 227, 227, 0); } }
 
-.testimonials__text, .testimonials__name {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
-
 .testimonials {
   font-family: Poppins, Arial, Helvetica, sans-serif;
   height: 800px; }
@@ -161,12 +158,14 @@
   .testimonials__text {
     width: 250px;
     margin: 16px 32px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #6c788b;
     line-height: 150%; }
   .testimonials__name {
     width: 55px;
     margin: 0 auto;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #253757; }
   .testimonials__position {
