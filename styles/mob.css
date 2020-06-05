@@ -1,6 +1,3 @@
-.header__mob {
-  display: none; }
-
 @media screen and (max-width: 800px) {
   .mob {
     display: -webkit-box;
@@ -78,4 +75,4 @@
     -webkit-transform: translate(-320px);
             transform: translate(-320px); } }
 
-/*# sourceMappingURL=mobile.css.map */
+/*# sourceMappingURL=mob.css.map */

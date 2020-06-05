@@ -34,6 +34,8 @@
     .header__hire:hover {
       -webkit-animation: shake 1s ease-in-out infinite;
               animation: shake 1s ease-in-out infinite; }
+  .header__mob {
+    display: none; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .header__wrapper {
@@ -253,6 +255,7 @@ a {
   .strategic .photo__button {
     height: 50px;
     outline: none;
+    border: none;
     width: 50px;
     border-radius: 50%;
     margin: 25px 5px;
@@ -1208,9 +1211,6 @@ a {
   .menu-icon-line.menu-icon-active::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg); }
-
-.header__mob {
-  display: none; }
 
 @media screen and (max-width: 800px) {
   .mob {

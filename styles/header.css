@@ -33,6 +33,8 @@
     .header__hire:hover {
       -webkit-animation: shake 1s ease-in-out infinite;
               animation: shake 1s ease-in-out infinite; }
+  .header__mob {
+    display: none; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .header__wrapper {
