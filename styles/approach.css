@@ -45,7 +45,8 @@
     display: -ms-flexbox;
     display: flex;
     height: auto;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    border-radius: 25px; }
     .approach__item::after {
       position: absolute;
       content: "";
@@ -115,6 +116,11 @@
     margin: 0;
     border-radius: 30px; }
     .approach__photo {
-      display: none; } }
+      display: none; }
+    .approach__item:hover {
+      background-color: white; }
+      .approach__item:hover:after {
+        content: "";
+        width: 0; } }
 
 /*# sourceMappingURL=approach.css.map */

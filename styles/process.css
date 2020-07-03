@@ -7,7 +7,7 @@
           justify-content: space-between;
   max-height: 700px; }
   .process .content {
-    margin: 50px auto;
+    margin: auto;
     max-width: 350px;
     font-family: Poppins, Arial, Helvetica, sans-serif; }
     .process .content__subheading {
@@ -36,5 +36,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; } }
+
+@media screen and (max-width: 500px), (max-width: 330px) {
+  .content {
+    text-align: center; } }
 
 /*# sourceMappingURL=process.css.map */
