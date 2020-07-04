@@ -213,6 +213,7 @@ a {
   border-radius: 0 0 30px 30px;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
+  overflow: hidden;
   font-family: Poppins, Arial, Helvetica, sans-serif; }
   .strategic__content {
     max-width: 350px;
@@ -235,9 +236,7 @@ a {
     top: 0;
     right: 0;
     width: 40vw;
-    height: 650px;
-    background: url(../images/watch.png) center center/cover no-repeat;
-    border-radius: 30px 0; }
+    height: 650px; }
   .strategic .photo__content {
     position: absolute;
     left: 50px;
@@ -268,6 +267,10 @@ a {
     .strategic .photo__button:focus, .strategic .photo__button:active {
       -webkit-transform: translateY(-5px);
               transform: translateY(-5px); }
+  .strategic .photo__container {
+    border-radius: 30px 0;
+    overflow: hidden;
+    margin-top: 50px; }
 
 @media screen and (max-width: 1024px), (max-width: 1280px) {
   .strategic__photo {
@@ -1287,5 +1290,31 @@ a {
   .mob__slide {
     -webkit-transform: translate(-320px);
             transform: translate(-320px); } }
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; }
+  .slider__item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(32, 96, 246, 0.6)), color-stop(50%, rgba(0, 0, 0, 0)));
+    background: linear-gradient(0deg, rgba(32, 96, 246, 0.6) 10%, rgba(0, 0, 0, 0) 50%);
+    opacity: 40%; }
+  .slider__photo {
+    width: 40vw;
+    height: 700px;
+    -o-object-fit: cover;
+       object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */
