@@ -6,8 +6,8 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out; }
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out; }
   .slider__item::after {
     content: "";
     position: absolute;
