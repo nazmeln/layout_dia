@@ -33,25 +33,29 @@
     border-bottom: 2px solid #fff;
     font-weight: 600;
     font-size: 15px;
-    color: #fff;
-    -webkit-text-fill-color: #c0c0c0;
+    -webkit-text-fill-color: white;
     -webkit-box-shadow: 0 0 0 100px #2c2c2c inset; }
     .contact__input:focus, .contact__input:active {
       border-bottom: 2px solid #2060f6; }
     .contact__input::-webkit-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::-moz-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input:-ms-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::-ms-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
   .contact__button {
     margin-top: 50px; }

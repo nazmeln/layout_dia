@@ -54,9 +54,6 @@
     .strategic .photo__button:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-    .strategic .photo__button:focus, .strategic .photo__button:active {
-      -webkit-transform: translateY(-5px);
-              transform: translateY(-5px); }
   .strategic .photo__container {
     border-radius: 30px 0;
     overflow: hidden;

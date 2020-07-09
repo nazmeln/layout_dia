@@ -262,9 +262,6 @@ a {
     .strategic .photo__button:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-    .strategic .photo__button:focus, .strategic .photo__button:active {
-      -webkit-transform: translateY(-5px);
-              transform: translateY(-5px); }
   .strategic .photo__container {
     border-radius: 30px 0;
     overflow: hidden;
@@ -388,7 +385,8 @@ a {
     text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    height: 380px; }
+    height: 380px;
+    padding: 20px; }
     .expertise .item__photo {
       margin-top: 30px;
       border-radius: 30px; }
@@ -994,25 +992,29 @@ a {
     border-bottom: 2px solid #fff;
     font-weight: 600;
     font-size: 15px;
-    color: #fff;
-    -webkit-text-fill-color: #c0c0c0;
+    -webkit-text-fill-color: white;
     -webkit-box-shadow: 0 0 0 100px #2c2c2c inset; }
     .contact__input:focus, .contact__input:active {
       border-bottom: 2px solid #2060f6; }
     .contact__input::-webkit-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::-moz-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input:-ms-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::-ms-input-placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
     .contact__input::placeholder {
       font-family: Poppins, Arial, Helvetica, sans-serif;
+      opacity: 0.5;
       color: #c0c0c0; }
   .contact__button {
     margin-top: 50px; }
@@ -1313,13 +1315,13 @@ a {
     width: 40vw;
     height: 650px; }
     .slider__item:nth-child(1) {
-      background: url(../images/slider/GwVmBgpP-PQ.svg) center no-repeat; }
+      background: url(../images/slider/pencils.jpg); }
     .slider__item:nth-child(2) {
-      background: url(../images/slider/qPojqUji_y4.svg) center no-repeat; }
+      background: url(../images/slider/qPojqUji_y4.svg); }
     .slider__item:nth-child(3) {
-      background: url(../images/slider/Phto.svg) center no-repeat; }
+      background: url(../images/slider/Phto.svg); }
     .slider__item:nth-child(4) {
-      background-image: url(../images/slider/Photo.svg); }
+      background-image: url(../images/slider/GwVmBgpP-PQ.svg); }
 
 .hidden {
   opacity: 0; }

@@ -23,7 +23,8 @@
     text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    height: 380px; }
+    height: 380px;
+    padding: 20px; }
     .expertise .item__photo {
       margin-top: 30px;
       border-radius: 30px; }
